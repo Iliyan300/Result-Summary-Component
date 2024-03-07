@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&family=Poppins:wght@300;400;500;600&family=Roboto+Mono&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    * {
+
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        
+    }
+
+    :root {
+
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+
+    }
+
+    body {
+
+        font-family:"Hanken Grotesk", sans-serif;
+        background-color:hsl(0, 0%, 100%);
+        min-height: 100svh;
+        display:grid;
+        place-content: center;
+        padding:1.5rem;
+        
+    }
+
+    img,svg {
+
+        max-width: 100%;
+        display:block;
+        
+        }
+
+        h4 {
+
+            font-size:1rem;
+
+           }
+
+        button {
+
+            cursor:pointer;
+            background-color:transparent;
+            width:80%;
+            font-size:1.1rem;
+            font-weight: 600;
+            text-align:left;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius:12px;
+            background-color: hsl(221, 100%, 96%);
+            border:0;
+            padding:1rem;
+            margin:10px;
+        }
+
+        button:hover {
+            
+            transition: 100ms;
+            transform: scale(1.02);
+
+        }
+        
+        .icon {
+
+            display:flex;
+            gap:1rem;
+        }
+
+        .continue-btn {
+
+            display:flex;
+            place-content: center;
+            background-color: var(--dark-gray-blue);
+            border-radius: 1.5rem;
+            padding:15px;
+            margin-top:4rem;
+            color:white;
+            
+        }
+
+        .continue-btn:hover { 
+            transition: 1s ease;
+            background-image: linear-gradient(to top, #5205b6,#240372);
+            
+        }
+
+        .summary-content {
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-top-right-radius: 1rem;
+          border-bottom-right-radius: 1rem;
+          max-width: 350px;
+        box-shadow: 1rem 0.5rem 1rem hsl(222, 70%, 85%);
+        position: relative;
+        right: 1rem;
+        
+            
+       
+        }
+
+       button p {
+
+        font-size:0.9rem;
+
+       }
+
+     
+
+        .summary-headline {
+        display:flex;
+        align-self: start;
+        margin:1.5rem;
+        margin-left:2.5rem;
+        font-size:1.3rem;
+
+       }
+
+    
+
+       .component-container {
+
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+     }
+
+
+.result-content {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20rem;
+    background-image: linear-gradient(to top, #240372, #2a0274, #5205b6, #6300bf, #8212eb);
+    border-radius: 20px;
+    padding:1rem;
+    color:white;
+    overflow: hidden;
+
+}
+
+
+
+.result-headline p  {
+
+    font-size:1.3rem;
+    margin-bottom:1rem;
+}
+
+
+
+.statistics-section {
+
+margin:1rem;
+
+
+}
+
+.score-section  {
+
+    text-align: center;
+    margin-bottom:1.5rem;
+    padding:1rem;
+}
+
+.score-section h2 {
+
+    margin:1.5rem;
+    font-size:2rem;
+}
+
+span {
+
+    font-size:3rem;
+}
+   
+#circle {
+    text-align: center;
+    background-image: linear-gradient(to top, #5205b6,#240372);
+    border-radius: 50%;
+    padding:3rem;
+    width: 180px;
+    box-shadow: 0 0 1rem;
+}
+
+#reaction-btn  {
+
+    color:var(--light-red);
+}
+
+#memory-btn {
+
+    color:var(--orangey-yellow);
+}
+
+#verbal-btn {
+
+    color: var(--green-teal);
+}
+
+#visual-btn {
+
+    color:var(--cobalt-blue);
+}
+
+
+footer {
+
+   margin-top:1rem;
+    
+}
+
+
+
+
+
